@@ -1,0 +1,26 @@
+{
+    "seed": 0,
+    "path_to_data": "rcv1_test.binary",
+    "n_features": 47236,
+    "zero_based": false,
+    "length": 350000000,
+    "N": 10000,
+    "c": 1e-5,
+    "nb_epochs": 800,
+    "output_path": "results",
+    "cache_path": "cache",
+    "computation_time": 1,
+    "communication_time": 10000,
+    "graph": "complete",
+    "solvers": [
+        ["Token_1", {"batch_factor": 0.02, "nb_tokens": 1}],
+        ["Token_4", {"batch_factor": 0.02, "nb_tokens": 4}],
+        ["TVR_1", {"batch_factor": 0.02, "nb_tokens": 1}],
+        ["TVR_4", {"batch_factor": 0.02, "nb_tokens": 4}],
+        ["GD", {"batch_factor": 0.02}],
+        ["Walkman", {"batch_factor": 0.02}]
+    ],
+    "example_solvers": [
+        ["EXTRA", {"batch_factor": 0.02}]
+    ]
+}
