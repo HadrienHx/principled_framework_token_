@@ -1,7 +1,9 @@
+
 ## Code to run token algorithms
 
 This repository contains the code for the AISTATS 2023 submission "A principled framework for the design and analysis of
-token algorithms". Details and theory for the various token algorithms can be found in the paper.  
+token algorithms", which is accessible at the following link: https://proceedings.mlr.press/v206/hendrikx23a.html
+Details and theory for the various token algorithms can be found in the paper.  
 
 # Requirements
 
